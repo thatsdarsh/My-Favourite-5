@@ -1,0 +1,65 @@
+#book {
+  height: 175px;
+  border-radius: 50%;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(#097968 0%, #00d4ff 15%, #01b8ec 28%, #0299d8 36%, #0187e2 43%, #0473bf 52%, #0367c7 60%, #023564 84%, #023564 92%, #01b8ec 100%);
+}84
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#firstPara {
+    color: whitesmoke;
+}
+
+.Menu {
+    font-family: 'Akaya Telivigala', cursive;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: currentColor;
+}
+
+.links {
+    float: left;
+    color: cornsilk; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.links:hover {
+    background-color: chocolate;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.8);
+}
+
+#h3 {
+    font-family: cursive;
+}
+
+.anchor {
+    color: aliceblue !important;
+}
